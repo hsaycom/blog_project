@@ -1,0 +1,51 @@
+/* Минимум оформления: только чтобы страница читалась. */
+body {
+    max-width: 720px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    font-family: system-ui, sans-serif;
+    line-height: 1.5;
+}
+
+nav a {
+    margin-right: 1rem;
+}
+
+form {
+    display: grid;
+    gap: 0.5rem;
+    max-width: 420px;
+    margin-bottom: 1rem;
+}
+
+input,
+textarea,
+select,
+button {
+    font: inherit;
+}
+
+textarea {
+    resize: vertical;
+}
+
+section {
+    margin-bottom: 2.5rem;
+}
+
+#posts-list li {
+    margin-bottom: 1rem;
+}
+
+#posts-list h3 {
+    margin-bottom: 0.25rem;
+}
+
+.post-content {
+    white-space: pre-wrap;
+}
+
+.actions {
+    display: flex;
+    gap: 0.5rem;
+}

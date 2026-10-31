@@ -1,0 +1,6 @@
+fastapi==0.162.0
+uvicorn==0.54.0
+SQLAlchemy==2.1.6
+pydantic==2.14.1
+# опционально, если .env начнёшь реально читать:
+# python-dotenv==1.2.1
